@@ -1,0 +1,23 @@
+.main-content {
+  text-align: center;
+}
+
+.main-logo {
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+
+input {
+  width: 50em;
+  text-align: left;
+  height: 3em;
+  border-radius: 1.5em;
+}
+
+.test {
+  color: aqua;
+  border: 2px;
+  display: block;
+  padding: 10px 10px 10px 10px;
+}
