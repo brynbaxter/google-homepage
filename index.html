@@ -2,9 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Google</title>
+
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -19,49 +20,62 @@
         </nav>
 
         <!-- Main -->
-        <div class="main">
+        <main class="main">
           <div class="main__hero">
-            <img
-              class="main-logo"
-              src="googlelogo_color_272x92dp.png"
-              alt="Google Logo"
-            />
+            <img src="google-logo.png" alt="Google Logo" />
           </div>
           <div class="main__input">
             <div class="main__form">
               <div class="form__group">
                 <div class="form__logo--search">
-                  <svg></svg>
+                  <img src="outline_search_black_24dp.png" alt="" />
                 </div>
                 <div class="form__input">
                   <input />
                 </div>
                 <div class="form__logo--mic">
-                  <svg></svg>
+                  <img src="outline_mic_black_24dp.png" alt="Voice Search" />
                 </div>
               </div>
             </div>
-            <input type="text" id="name" name="name" required />
-            <div class="button-container">
-              <div class="box">Google Search</div>
-              <div class="box">I'm Feeling Lucky</div>
+            <div class="main__submit">
+              <button class="main__submit--search">Google Search</button>
+              <button type="submit" class="main__submit--lucky"
+                >I'm Feeling Lucky</button
+              >
             </div>
           </div>
-        </div>
+        </main>
 
         <!-- Footer -->
         <footer class="footer">
           <div>
             <ul class="footer__list">
-              <li class="footer__item"><a href="#"></a></li>
-              <li class="footer__item"><a href="#"></a></li>
-              <li class="footer__item"><a href="#"></a></li>
-              <li class="footer__item"><a href="#"></a></li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Advertising</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Business</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">About</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">How Search works</a>
+              </li>
             </ul>
-            <ul class="footer_list">
-              <li class="footer_item"><a href="#"></a></li>
-              <li class="footer_item"><a href="#"></a></li>
-              <li class="footer_item"><a href="#"></a></li>
+          </div>
+          <div>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Privacy</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Terms</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Settings</a>
+              </li>
             </ul>
           </div>
         </footer>

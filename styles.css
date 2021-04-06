@@ -1,23 +1,66 @@
-.main-content {
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav__list,
+.footer__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.nav__item {
+  display: inline;
+  /* width: 60px; */
+  padding: 15px;
+  padding-right: 30px;
+  float: right;
+}
+
+.main {
   text-align: center;
 }
 
-.main-logo {
-  display: block;
-  margin: auto;
-  width: 30%;
+.main__hero {
+  padding-top: 109px;
 }
 
-input {
-  width: 50em;
-  text-align: left;
-  height: 3em;
-  border-radius: 1.5em;
+.form__group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: black;
+  border-width: 2px;
 }
 
-.test {
-  color: aqua;
-  border: 2px;
-  display: block;
-  padding: 10px 10px 10px 10px;
+/* .form__group * {
+  display: inline;
+} */
+
+.main__submit button {
+  border: none;
+  background: #f2f2f2;
+  margin: 11px 4px;
+  padding: 0 16px;
+  height: 36px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #f2f2f2;
+}
+
+/* default footer item behaviour */
+.footer__item {
+  display: inline;
+  padding: 15px;
+  float: right;
+}
+
+/* override default alignment for first group of items */
+footer div:first-child ul .footer__item {
+  float: left;
 }
