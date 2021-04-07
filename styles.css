@@ -34,15 +34,27 @@ body {
   flex-direction: row;
   justify-content: center;
   border-style: solid;
-  border-width: 2px;
+  border-width: 1px;
   border-radius: 28px;
+  border-color: lightgray;
 }
 
 .form__input input {
-  width: 350px;
+  width: 400px;
   border: none;
-  height: 38px;
+  height: 45px;
   margin-top: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* magnifying glass and microphone icons */
+.form__group div img {
+  width: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .main__submit button {
